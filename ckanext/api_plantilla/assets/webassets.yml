@@ -1,0 +1,14 @@
+# api_plantilla-js:
+#   filter: rjsmin
+#   output: ckanext-api_plantilla/%(version)s-api_plantilla.js
+#   contents:
+#     - js/api_plantilla.js
+#   extra:
+#     preload:
+#       - base/main
+
+# api_plantilla-css:
+#   filter: cssrewrite
+#   output: ckanext-api_plantilla/%(version)s-api_plantilla.css
+#   contents:
+#     - css/api_plantilla.css
